@@ -1,0 +1,161 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.navbar-brand {
+   font-size: 2rem; 
+   color: rgba(0, 0, 0, 0.587);
+   font-family: "Lobster", sans-serif;
+}
+.navbar-brand:hover{
+    color: black;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    font-family: "Rubik", sans-serif;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: black;
+}
+.search{
+   height: 40px;
+   width: 80%;
+   border-radius: 60px;
+   outline: none;
+   font-family: "Rubik", sans-serif;
+   margin-right: -35px;
+   border: 2px solid rgb(227,70,44);
+}
+.btn5{
+    height: 40px;
+    width: 50px;
+    outline: none;
+    border: none;
+    background: rgb(227,70,44);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700px;
+}
+.main{
+    background: url('../img/FONDO.png') no-repeat;
+    background-size: cover;
+    height: 70vh;
+    background-position: 60% 60%;
+    width: 100%;
+
+}
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color: black;
+}
+.btn1{
+  height: 45px;
+  width: 35%;
+  border: none;
+  outline: none;
+  background-color: white;
+  color: black;
+  font-weight: 700;
+  border-radius: 60px;
+}
+.h1{
+    font-weight: 700;
+}
+.card:hover{
+    box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+   -webkit-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+   -moz-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+   transition: 0,5;
+}
+.bg1{
+    background-color: rgb(227,70,44);
+}
+.carousel-item {
+    height: 500px;
+  }
+  .carousel-item img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.pie_pagina{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+  
+footer.no-apply {
+    position: static;
+    width: auto;
+    bottom: auto;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(227, 70, 44);
+    color: white;
+    text-align: center;
+}
+
+footer.no-apply {
+    position: static;
+    width: auto;
+    bottom: auto;
+}
+
+.bg-1 a {
+    color: #ffffff;
+  }
+  
+  .bg-1 a:hover {
+    color: #cccccc;
+  }
+
+.slider{
+    width: 77vw;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider .slide-track{
+    display: flex;
+    animation: scroll 40s linear infinite;
+    -webkit-animation: scroll 40s linear infinite;
+    width: calc(200px * 14);
+}
+
+.slider .slide{
+    width: 200px;
+
+}
+
+.slider .slide img{
+    width: 100%;
+}
+
+@keyframes scroll {
+    0%{
+        -webkit-transform: translateX(0) ;
+        transform: translateX(0) ;
+    }
+    100%{
+        -webkit-transform: translateX(calc(-200px * 7)) ;
+        transform: translateX(calc(-200px * 7)) ;
+    }
+}
