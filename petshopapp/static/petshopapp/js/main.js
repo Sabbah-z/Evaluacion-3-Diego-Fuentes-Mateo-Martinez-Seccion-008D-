@@ -48,7 +48,7 @@ $(document).ready(function() {
       url: url,
       type: 'GET',
       success: function(response) {
-        const message = $('<div class="alert alert-success">Producto agregado :D</div>').hide().fadeIn(300).delay(1500).fadeOut(300);
+        const message = $('<div class="alert alert-success">Producto agregado :D.</div>').hide().fadeIn(300).delay(1500).fadeOut(300);
         $('body').append(message);
       },
       error: function() {
